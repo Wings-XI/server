@@ -112,6 +112,13 @@ local function getBaseMPCost(player, ability)
         [xi.jobAbility.BLINDSIDE]        = 147,
         [xi.jobAbility.NIGHT_TERROR]     = 177,
         [xi.jobAbility.PAVOR_NOCTURNUS]  = 246,
+        -- Cait Sith
+        [xi.jobAbility.REGAL_SCRATCH]    = 5,
+        [xi.jobAbility.MEWING_LULLABY]   = 61,
+        [xi.jobAbility.EARIE_EYE]        = 134,
+        [xi.jobAbility.LEVEL_QM_HOLY]    = 235,
+        [xi.jobAbility.RAISE_II]         = 160,
+        [xi.jobAbility.RERAISE_II]       = 80,
         -- Siren
         [xi.jobAbility.WELT]             =   9,
         [xi.jobAbility.ROUNDHOUSE]       =  52,
