@@ -41,12 +41,9 @@ zones[xi.zone.GRAUBERG_S] =
             [17141966] = 17141962,
             [17141967] = 17141962,
         },
-        SCITALIS_PH =
-        {
-            [17141977] = 17141979,
-            [17141978] = 17141979,
-            [17141981] = 17141979,
-        },
+
+        SCITALIS = GetFirstID('Scitalis'),
+
         MIGRATORY_HIPPOGRYPH = 17142108,
     },
     npc =
