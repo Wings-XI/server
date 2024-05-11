@@ -5052,8 +5052,8 @@ INSERT INTO `mob_spell_lists` VALUES ('Sarcopsylla',505,204,1,255); -- flare (1~
 INSERT INTO `mob_spell_lists` VALUES ('Sarcopsylla',505,235,1,255); -- burn (1~255)
 
 -- Olgoi-Khorkoi (506)
-INSERT INTO `mob_spell_lists` VALUES ('Worm',506,160,26,50);  -- stone_ii (1~255)
-INSERT INTO `mob_spell_lists` VALUES ('Worm',506,189,15,39);  -- stonega (1~255)
+INSERT INTO `mob_spell_lists` VALUES ('Olgoi-Khorkhoi',506,160,1,255);  -- stone_ii (1~255)
+INSERT INTO `mob_spell_lists` VALUES ('Olgoi-Khorkhoi',506,189,1,255);  -- stonega (1~255)
 
 -- Next Available: 507
 
