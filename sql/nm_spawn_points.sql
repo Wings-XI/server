@@ -910,6 +910,12 @@ INSERT INTO `nm_spawn_points` VALUES (17125452,0,137.606,3.346,-279.050); -- Ash
 INSERT INTO `nm_spawn_points` VALUES (17137005,0,678.599,-10.219,532.811);
 INSERT INTO `nm_spawn_points` VALUES (17137705,0,678.599,-10.219,532.811); -- Ankabut
 INSERT INTO `nm_spawn_points` VALUES (17137821,0,49.650,1.692,630.371); -- Gloomanita
+INSERT INTO `nm_spawn_points` VALUES (17137859,0,318.836,-30.032,1059.678); -- Olgoi-Khorkhoi
+INSERT INTO `nm_spawn_points` VALUES (17137859,0,325.058,-30.335,1070.703); -- Olgoi-Khorkhoi
+INSERT INTO `nm_spawn_points` VALUES (17137859,0,306.609,-27.978,1076.948); -- Olgoi-Khorkhoi
+INSERT INTO `nm_spawn_points` VALUES (17137859,0,309.911,-28.852,1073.993); -- Olgoi-Khorkhoi
+INSERT INTO `nm_spawn_points` VALUES (17137859,0,313.41,-30.97,1058.78); -- Olgoi-Khorkhoi
+INSERT INTO `nm_spawn_points` VALUES (17137859,0,321.457,-30.00,1078.293); -- Olgoi-Khorkhoi
 INSERT INTO `nm_spawn_points` VALUES (17141962,0,-23.892,-24.139,327.721); -- Kotan-kor Kamuy
 INSERT INTO `nm_spawn_points` VALUES (17141979,0,-140.354,-92.095,39.459); -- Scitalis
 INSERT INTO `nm_spawn_points` VALUES (17145867,0,-416.496,24.110,-441.589); -- Sugaar
