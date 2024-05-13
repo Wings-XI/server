@@ -1,10 +1,12 @@
 -----------------------------------
 -- Area: North Gustaberg [S]
 --   NM: Olgoi-Khorkhoi
+-- https://www.bg-wiki.com/ffxi/Olgoi-Khorkhoi
 -----------------------------------
 local entity = {}
 
 entity.onMobInitialize = function(mob)
+    mob:setMod(xi.mod.STORETP, 170)
     mob:addImmunity(xi.immunity.SILENCE)
     mob:addImmunity(xi.immunity.BIND)
     mob:addImmunity(xi.immunity.GRAVITY)
