@@ -1,10 +1,25 @@
 -----------------------------------
 -- Area: North Gustaberg [S]
 --   NM: Olgoi-Khorkhoi
+-- https://www.bg-wiki.com/ffxi/Olgoi-Khorkhoi
 -----------------------------------
 local entity = {}
 
+entity.onMobInitialize = function(mob)
+    mob:setMod(xi.mod.STORETP, 170)
+    mob:addImmunity(xi.immunity.SILENCE)
+    mob:addImmunity(xi.immunity.BIND)
+    mob:addImmunity(xi.immunity.GRAVITY)
+    mob:addImmunity(xi.immunity.LIGHT_SLEEP)
+    mob:addImmunity(xi.immunity.DARK_SLEEP)
+    mob:addImmunity(xi.immunity.PETRIFY)
+end
+
 entity.onMobSpawn = function(mob)
+end
+
+entity.onMobWeaponSkillPrepare = function(mob, target)
+    return 426 -- Sandspin is only TP move
 end
 
 entity.onMobDeath = function(mob, player, optParams)
@@ -12,9 +27,8 @@ entity.onMobDeath = function(mob, player, optParams)
 end
 
 entity.onMobDespawn = function(mob)
-    -- Sets to respawn between 90 to 120 minutes
-    -- UpdateNMSpawnPoint(mob:getID()) TODO: need rows in nm_spawn_points.sql
-    mob:setRespawnTime(math.random(5400, 7200))
+    UpdateNMSpawnPoint(mob:getID())
+    mob:setRespawnTime(math.random(5400, 7200)) -- 60 to 90 minutes
 end
 
 return entity
