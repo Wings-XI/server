@@ -914,6 +914,18 @@ INSERT INTO `nm_spawn_points` VALUES (17141962,0,-23.892,-24.139,327.721); -- Ko
 INSERT INTO `nm_spawn_points` VALUES (17141979,0,-140.354,-92.095,39.459); -- Scitalis
 INSERT INTO `nm_spawn_points` VALUES (17145867,0,-416.496,24.110,-441.589); -- Sugaar
 INSERT INTO `nm_spawn_points` VALUES (17146012,0,-173.471,24.475,447.102); -- Nommo
+INSERT INTO `nm_spawn_points` VALUES (17149986,0,51.54,23.25,518.33); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,1,56.75,23.29,525.66); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,2,62.24,23.87,531.99); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,3,66.25,23.91,536.18); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,4,70.29,23.94,540.39); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,5,76.77,24.15,541.61); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,6,83.24,23.86,550.22); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,7,105.64,20.10,436.23); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,8,114.36,22.57,445.11); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,9,122.17,23.56,456.38); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,10,110.18,23.36,467.20); -- Lamina
+INSERT INTO `nm_spawn_points` VALUES (17149986,11,92.57,23.57,480.25); -- Lamina
 INSERT INTO `nm_spawn_points` VALUES (17150280,0,-515.400,-23.780,-453.510); -- Delicieuse Delphine
 INSERT INTO `nm_spawn_points` VALUES (17154069,0,-191.758,0.500,-59.651); -- EaTho Cruelheart
 INSERT INTO `nm_spawn_points` VALUES (17154148,0,-93.112,-3.500,179.625); -- BaTho Mercifulheart
