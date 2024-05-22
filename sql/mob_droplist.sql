@@ -4265,9 +4265,9 @@ INSERT INTO `mob_droplist` VALUES (475,0,0,1000,18001,60);  -- Harpe (6.0%)
 INSERT INTO `mob_droplist` VALUES (476,0,0,1000,2163,520); -- Imp Wing (52.0%)
 
 -- ZoneID:  61 - Claret
-INSERT INTO `mob_droplist` VALUES (477,0,0,1000,2627,@ALWAYS); -- Globule Of Claret (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (477,0,0,1000,18859,410);    -- Kerykeion (41.0%)
-INSERT INTO `mob_droplist` VALUES (477,0,0,1000,16274,250);    -- Almah Torque (25.0%)
+INSERT INTO `mob_droplist` VALUES (477,0,0,1000,2627,@ALWAYS);  -- Globule Of Claret (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (477,0,0,1000,18859,@COMMON); -- Kerykeion (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (477,0,0,1000,16274,@COMMON); -- Almah Torque (Common, 15%)
 
 -- ZoneID: 120 - Climbpix Highrise
 INSERT INTO `mob_droplist` VALUES (478,0,0,1000,17474,@ALWAYS); -- Grapnel (Always, 100%)

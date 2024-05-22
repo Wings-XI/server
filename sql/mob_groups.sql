@@ -3010,7 +3010,7 @@ INSERT INTO `mob_groups` VALUES (43,1460,61,'Garfurlar_the_Rabid',3600,0,929,0,0
 INSERT INTO `mob_groups` VALUES (44,1469,61,'Garhorlur_the_Brutal',3600,0,0,0,0,80,80,0);
 INSERT INTO `mob_groups` VALUES (45,122,61,'Ancient_Bombs',0,128,84,0,0,74,78,0);
 INSERT INTO `mob_groups` VALUES (46,524,61,'Brass_Borer',0,128,347,15000,0,83,83,0);
-INSERT INTO `mob_groups` VALUES (47,738,61,'Claret',0,128,477,15000,0,78,80,0);
+INSERT INTO `mob_groups` VALUES (47,738,61,'Claret',0,128,477,15500,0,82,83,0);
 INSERT INTO `mob_groups` VALUES (48,118,61,'Anantaboga',0,128,78,30000,0,85,87,0);
 INSERT INTO `mob_groups` VALUES (49,2223,61,'Khromasoul_Bhurborlor',0,128,1438,39000,0,82,84,0);
 INSERT INTO `mob_groups` VALUES (50,6686,61,'Troll_Grenadier',0,128,0,0,0,73,75,0);
