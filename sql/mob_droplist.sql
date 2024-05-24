@@ -141,14 +141,14 @@ INSERT INTO `mob_droplist` VALUES (13,0,0,1000,986,20); -- Ace Of Swords Card (2
 
 -- ZoneID:  62 - Achamoth
 INSERT INTO `mob_droplist` VALUES (14,0,0,1000,2622,@ALWAYS);  -- Achamoths Antenna (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,19034,580);     -- Ice Grip (58.0%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,19035,570);     -- Thunder Grip (57.0%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,16342,510);     -- Oracles Braconi (51.0%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,17753,310);     -- Organics (31.0%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,11376,300);     -- Aurum Sabatons (30.0%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,16342,250);     -- Oracles Braconi (25.0%)
-INSERT INTO `mob_droplist` VALUES (14,0,0,1000,11376,@COMMON); -- Aurum Sabatons (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,19034,@VCOMMON);     -- Ice Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,19035,@VCOMMON);     -- Thunder Grip (Very Common, 24%)
 INSERT INTO `mob_droplist` VALUES (14,0,0,1000,17753,@COMMON); -- Organics (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,17753,@COMMON); -- Organics (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,16342,@COMMON); -- Oracles Braconi (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,16342,@COMMON); -- Oracles Braconi (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,11376,@COMMON); -- Aurum Sabatons (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (14,0,0,1000,11376,@COMMON); -- Aurum Sabatons (Common, 15%)
 
 -- ZoneID:  11 - Amoebic Nodule
 -- ZoneID:  27 - Sponge
@@ -1614,12 +1614,15 @@ INSERT INTO `mob_droplist` VALUES (167,0,0,1000,925,30);   -- Giant Stinger (3.0
 INSERT INTO `mob_droplist` VALUES (167,2,0,1000,4370,0);   -- Pot Of Honey (Steal)
 
 -- ZoneID:  72 - Armed Gears
-INSERT INTO `mob_droplist` VALUES (168,0,0,1000,2610,@ALWAYS); -- Armed Gears Fragment (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (168,0,0,1000,19036,550);    -- Earth Grip (55.0%)
-INSERT INTO `mob_droplist` VALUES (168,0,0,1000,15022,480);    -- Oracles Gloves (48.0%)
-INSERT INTO `mob_droplist` VALUES (168,0,0,1000,11376,340);    -- Aurum Sabatons (34.0%)
-INSERT INTO `mob_droplist` VALUES (168,0,0,1000,18126,340);    -- Tomoe (34.0%)
-INSERT INTO `mob_droplist` VALUES (168,0,0,1000,19035,220);    -- Thunder Grip (22.0%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,2610,@ALWAYS);   -- Armed Gears Fragment (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,19036,@VCOMMON); -- Earth Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,19035,@VCOMMON); -- Thunder Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,18126,@COMMON);  -- Tomoe (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,18126,@COMMON);  -- Tomoe (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,15022,@COMMON);  -- Oracles Gloves (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,15022,@COMMON);  -- Oracles Gloves (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,11376,@COMMON);  -- Aurum Sabatons (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (168,0,0,1000,11376,@COMMON);  -- Aurum Sabatons (Common, 15%)
 
 -- ZoneID:   2 - Diving Beetle
 -- ZoneID:  83 - Goliath Beetle
@@ -5075,14 +5078,14 @@ INSERT INTO `mob_droplist` VALUES (576,2,0,1000,4370,0);   -- Pot Of Honey (Stea
 
 -- ZoneID:  52 - Dea
 INSERT INTO `mob_droplist` VALUES (577,0,0,1000,2612,@ALWAYS); -- Deas Horn (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,19031,540);    -- Fire Grip (54.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,19038,510);    -- Dark Grip (51.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,18125,460);    -- Cletine (46.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,11377,410);    -- Oracles Pigaches (41.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,16343,330);    -- Enkidus Subligar (33.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,18125,230);    -- Cletine (23.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,11377,210);    -- Oracles Pigaches (21.0%)
-INSERT INTO `mob_droplist` VALUES (577,0,0,1000,16343,160);    -- Enkidus Subligar (16.0%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,19031,@VCOMMON); -- Fire Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,19038,@VCOMMON); -- Dark Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,18125,@COMMON);    -- Cletine (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,18125,@COMMON);    -- Cletine (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,11377,@COMMON);    -- Oracles Pigaches (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,11377,@COMMON);    -- Oracles Pigaches (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,16343,@COMMON);    -- Enkidus Subligar (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (577,0,0,1000,16343,@COMMON);    -- Enkidus Subligar (Common, 15%)
 
 -- ZoneID: 120 - Deadly Dodo
 INSERT INTO `mob_droplist` VALUES (578,0,0,1000,4435,350); -- Slice Of Cockatrice Meat (35.0%)
@@ -6633,15 +6636,15 @@ INSERT INTO `mob_droplist` VALUES (800,0,0,1000,1089,70);      -- Clump Of Exora
 INSERT INTO `mob_droplist` VALUES (800,2,0,1000,4374,0);       -- Sleepshroom (Steal)
 
 -- ZoneID:  79 - Experimental Lamia
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,2631,@ALWAYS); -- Experimental Lamias Armband (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,19032,560);    -- Water Grip (56.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,19036,540);    -- Earth Grip (54.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,11378,390);    -- Enkidus Leggings (39.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,16341,390);    -- Aurum Cuisses (39.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,18595,390);    -- Mekki Shakki (39.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,11378,190);    -- Enkidus Leggings (19.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,16341,190);    -- Aurum Cuisses (19.0%)
-INSERT INTO `mob_droplist` VALUES (801,0,0,1000,18595,190);    -- Mekki Shakki (19.0%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,2631,@ALWAYS);   -- Experimental Lamias Armband (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,19032,@VCOMMON); -- Water Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,19036,@VCOMMON); -- Earth Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,18595,@COMMON);  -- Mekki Shakki (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,18595,@COMMON);  -- Mekki Shakki (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,16341,@COMMON);  -- Aurum Cuisses (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,16341,@COMMON);  -- Aurum Cuisses (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,11378,@COMMON);  -- Enkidus Leggings (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (801,0,0,1000,11378,@COMMON);  -- Enkidus Leggings (Common, 15%)
 
 -- ZoneID: 200 - Explosure
 INSERT INTO `mob_droplist` VALUES (802,0,0,1000,1090,710);    -- Chunk Of Bomb Coal (71.0%)
@@ -10007,15 +10010,15 @@ INSERT INTO `mob_droplist` VALUES (1209,2,0,1000,1452,0);        -- Ordelle Bron
 INSERT INTO `mob_droplist` VALUES (1209,2,0,1000,1455,0);        -- One Byne Bill (Steal)
 
 -- ZoneID:  51 - Gotoh Zha The Redolent
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,2611,@ALWAYS); -- Gotoh Zhas Necklace (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19032,600);    -- Water Grip (60.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19037,560);    -- Light Grip (56.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,16341,420);    -- Aurum Cuisses (42.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,15023,390);    -- Enkidus Mittens (39.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19153,280);    -- Naglering (28.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,16341,210);    -- Aurum Cuisses (21.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,15023,190);    -- Enkidus Mittens (19.0%)
-INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19153,140);    -- Naglering (14.0%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,2611,@ALWAYS);   -- Gotoh Zhas Necklace (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19032,@VCOMMON); -- Water Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19037,@VCOMMON); -- Light Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19153,@COMMON);  -- Naglering (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,19153,@COMMON);  -- Naglering (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,15023,@COMMON);  -- Enkidus Mittens (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,15023,@COMMON);  -- Enkidus Mittens (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,16341,@COMMON);  -- Aurum Cuisses (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1210,0,0,1000,16341,@COMMON);  -- Aurum Cuisses (Common, 15%)
 
 -- ZoneID: 134 - Goublefaupe
 INSERT INTO `mob_droplist` VALUES (1211,0,0,1000,1558,330);    -- Attestation Of Glory (33.0%)
@@ -11687,14 +11690,15 @@ INSERT INTO `mob_droplist` VALUES (1437,0,0,1000,18847,140);    -- Seveneyes (14
 INSERT INTO `mob_droplist` VALUES (1437,0,0,1000,17738,70);     -- Hauteclaire (7.0%)
 
 -- ZoneID:  61 - Khromasoul Bhurborlor
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,2621,@ALWAYS); -- Bhurborlors Vambrace (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,19034,490);    -- Ice Grip (49.0%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,19038,490);    -- Dark Grip (49.0%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16343,390);    -- Enkidus Subligar (39.0%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,15022,380);    -- Oracles Gloves (38.0%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16176,360);    -- Simba Buckler (36.0%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16343,200);    -- Enkidus Subligar (20.0%)
-INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,15022,190);    -- Oracles Gloves (19.0%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,2621,@ALWAYS);   -- Bhurborlors Vambrace (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,19034,@VCOMMON); -- Ice Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,19038,@VCOMMON); -- Dark Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16176,@COMMON);  -- Simba Buckler (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16176,@COMMON);  -- Simba Buckler (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16343,@COMMON);  -- Enkidus Subligar (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,16343,@COMMON);  -- Enkidus Subligar (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,15022,@COMMON);  -- Oracles Gloves (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1438,0,0,1000,15022,@COMMON);  -- Oracles Gloves (Common, 15%)
 
 -- ZoneID: 117 - Killer Bee
 INSERT INTO `mob_droplist` VALUES (1439,0,0,1000,912,@VCOMMON); -- Beehive Chip (Very Common, 24%)
@@ -12707,13 +12711,15 @@ INSERT INTO `mob_droplist` VALUES (1574,0,0,1000,2525,20);    -- Bottled Pixie (
 INSERT INTO `mob_droplist` VALUES (1575,0,0,1000,15219,470); -- Sinister Mask (47.0%)
 
 -- ZoneID:  79 - Mahjlaef The Paintorn
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,2630,@ALWAYS); -- Mahjlaefs Staff (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,19031,570);    -- Fire Grip (57.0%)
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,19035,530);    -- Thunder Grip (53.0%)
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,15021,470);    -- Aurum Gauntlets (47.0%)
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,16177,340);    -- Legion Scutum (34.0%)
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,16342,320);    -- Oracles Braconi (32.0%)
-INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,15021,230);    -- Aurum Gauntlets (23.0%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,2630,@ALWAYS);   -- Mahjlaefs Staff (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,19031,@VCOMMON); -- Fire Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,19035,@VCOMMON); -- Thunder Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,16177,@COMMON);  -- Legion Scutum (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,16177,@COMMON);  -- Legion Scutum (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,15021,@COMMON);  -- Aurum Gauntlets (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,15021,@COMMON);  -- Aurum Gauntlets (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,16342,@COMMON);  -- Oracles Braconi (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1576,0,0,1000,16342,@COMMON);  -- Oracles Braconi (Common, 15%)
 
 -- ZoneID:  77 - Maighdean Uaine
 -- ZoneID:  96 - Wandering Sapling
@@ -14735,15 +14741,15 @@ INSERT INTO `mob_droplist` VALUES (1823,0,0,1000,940,@ALWAYS);     -- Revival Tr
 INSERT INTO `mob_droplist` VALUES (1823,0,0,1000,16723,@UNCOMMON); -- Executioner (Uncommon, 10%)
 
 -- ZoneID:  68 - Nosferatu
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,2620,@ALWAYS);  -- Nosferatus Claw (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,19036,570);     -- Earth Grip (57.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,19033,550);     -- Wind Grip (55.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,15021,440);     -- Aurum Gauntlets (44.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,11378,350);     -- Enkidus Leggings (35.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,17960,310);     -- Labrys (31.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,15021,220);     -- Aurum Gauntlets (22.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,11378,170);     -- Enkidus Leggings (17.0%)
-INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,17960,@COMMON); -- Labrys (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,2620,@ALWAYS);   -- Nosferatus Claw (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,19036,@VCOMMON); -- Earth Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,19033,@VCOMMON); -- Wind Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,17960,@COMMON);  -- Labrys (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,17960,@COMMON);  -- Labrys (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,15021,@COMMON);  -- Aurum Gauntlets (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,15021,@COMMON);  -- Aurum Gauntlets (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,11378,@COMMON);  -- Enkidus Leggings (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1824,0,0,1000,11378,@COMMON);  -- Enkidus Leggings (Common, 15%)
 
 -- ZoneID: 176 - Novv The Whitehearted
 INSERT INTO `mob_droplist` VALUES (1825,0,0,1000,4360,447);  -- Bastore Sardine (44.7%)
@@ -14778,15 +14784,15 @@ INSERT INTO `mob_droplist` VALUES (1827,0,0,1000,861,130);     -- Black Tiger Hi
 INSERT INTO `mob_droplist` VALUES (1827,2,0,1000,4400,0);      -- Slice Of Land Crab Meat (Steal)
 
 -- ZoneID:  54 - Nuhn
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,2632,@ALWAYS); -- Nuhns Esca (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,19037,510);    -- Light Grip (51.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,19033,480);    -- Wind Grip (48.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,11377,460);    -- Oracles Pigaches (46.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,18430,460);    -- Oninohocho (46.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,15023,280);    -- Enkidus Mittens (28.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,11377,230);    -- Oracles Pigaches (23.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,18430,230);    -- Oninohocho (23.0%)
-INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,15023,140);    -- Enkidus Mittens (14.0%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,2632,@ALWAYS);   -- Nuhns Esca (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,19037,@VCOMMON); -- Light Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,19033,@VCOMMON); -- Wind Grip (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,18430,@COMMON);  -- Oninohocho (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,18430,@COMMON);  -- Oninohocho (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,15023,@COMMON);  -- Enkidus Mittens (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,15023,@COMMON);  -- Enkidus Mittens (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,11377,@COMMON);  -- Oracles Pigaches (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1828,0,0,1000,11377,@COMMON);  -- Oracles Pigaches (Common, 15%)
 
 -- ZoneID: 115 - Nunyenunc
 INSERT INTO `mob_droplist` VALUES (1829,0,0,1000,18394,@ALWAYS); -- Pilgrims Wand (Always, 100%)
@@ -15931,18 +15937,18 @@ INSERT INTO `mob_droplist` VALUES (1976,0,0,1000,3121,110);  -- Unkai Seal Head 
 INSERT INTO `mob_droplist` VALUES (1976,0,0,1000,3116,80);   -- Creed Seal Head (8.0%)
 
 -- ZoneID:  68 - Pandemonium Warden
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2158,@ALWAYS); -- Hydra Fang (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2168,@ALWAYS); -- Cerberus Claw (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2169,@ALWAYS); -- Cerberus Hide (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2172,@ALWAYS); -- Hydra Scale (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2371,@ALWAYS); -- Khimaira Horn (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2372,@ALWAYS); -- Khimaira Mane (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,3503,@ALWAYS); -- Chunk Of Mulcibars Scoria (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,11281,680);    -- Hachiryu Haramaki (68.0%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,18447,670);    -- Nanatsusayanotachi (67.0%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,18759,670);    -- Shenlongs Baghnakhs (67.0%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,18594,660);    -- Dorje (66.0%)
-INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,3503,500);     -- Chunk Of Mulcibars Scoria (50.0%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,3503,@ALWAYS);   -- Chunk Of Mulcibars Scoria (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,3503,@UNCOMMON); -- Chunk Of Mulcibars Scoria (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2372,@ALWAYS);   -- Khimaira Mane (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2169,@ALWAYS);   -- Cerberus Hide (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2172,@ALWAYS);   -- Hydra Scale (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2158,@VCOMMON);  -- Hydra Fang (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2168,@VCOMMON);  -- Cerberus Claw (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,2371,@VCOMMON);  -- Khimaira Horn (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,11281,@VCOMMON); -- Hachiryu Haramaki (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,18447,@VCOMMON); -- Nanatsusayanotachi (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,18759,@VCOMMON); -- Shenlongs Baghnakhs (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1977,0,0,1000,18594,@VCOMMON); -- Dorje (Very Common, 24%)
 
 -- ZoneID: 132 - Pantagruel
 INSERT INTO `mob_droplist` VALUES (1978,0,0,1000,11606,@COMMON); -- Arctiers Torque (Common, 10.0%)
