@@ -793,7 +793,7 @@ INSERT INTO `mob_droplist` VALUES (77,0,0,1000,3116,@UNCOMMON); -- Creed Seal He
 INSERT INTO `mob_droplist` VALUES (77,0,0,1000,18833,70);       -- Cantabanks Horn (7.0%)
 
 -- ZoneID:  61 - Anantaboga
-INSERT INTO `mob_droplist` VALUES (78,0,0,1000,2623,@ALWAYS);   -- Anantabogas Heart (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (78,0,0,1000,2623,@ALWAYS);  -- Anantabogas Heart (Always, 100%)
 INSERT INTO `mob_droplist` VALUES (78,0,0,1000,19109,@COMMON); -- Trilling Dagger (Common, 15%)
 INSERT INTO `mob_droplist` VALUES (78,0,0,1000,18448,@COMMON); -- Hacchonenbutsu Dangozashi (Common, 15%)
 
@@ -5503,7 +5503,7 @@ INSERT INTO `mob_droplist` VALUES (645,0,0,1000,888,60);      -- Seashell (6.0%)
 INSERT INTO `mob_droplist` VALUES (646,0,0,1000,16082,@UNCOMMON); -- Volunteers Khud (Uncommon, 10%)
 
 -- ZoneID:  62 - Dextrose
-INSERT INTO `mob_droplist` VALUES (647,0,0,1000,2625,@ALWAYS);   -- Blob Of Dextroses Blubber (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (647,0,0,1000,2625,@ALWAYS);  -- Blob Of Dextroses Blubber (Always, 100%)
 INSERT INTO `mob_droplist` VALUES (647,0,0,1000,18127,@COMMON); -- Achilles Spear (Common, 15%)
 INSERT INTO `mob_droplist` VALUES (647,0,0,1000,16338,@COMMON); -- Ruby Seraweels (Common, 15%)
 
@@ -11136,8 +11136,8 @@ INSERT INTO `mob_droplist` VALUES (1367,0,0,1000,16339,@COMMON); -- Paddock Trou
 INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2613,@ALWAYS);  -- Iriz Imas Hide (Always, 100%)
 INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,19154,@COMMON); -- Ferrara (Common, 15%)
 INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,11366,@COMMON); -- Avocat Pigaches (Common, 15%)
-INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2147,40);      -- Marid Tusk (4.0%)
-INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2147,20);      -- Marid Tusk (2.0%)
+INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2147,40);       -- Marid Tusk (4.0%)
+INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2147,20);       -- Marid Tusk (2.0%)
 
 -- ZoneID: 215 - Ironclad Cleaver
 INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,11430,@ALWAYS);   -- Tandava Crackows (Always, 100%)
