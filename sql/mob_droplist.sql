@@ -17185,19 +17185,16 @@ INSERT INTO `mob_droplist` VALUES (2161,0,0,1000,2556,@UNCOMMON); -- Dancers Tes
 INSERT INTO `mob_droplist` VALUES (2161,2,0,1000,748,0);          -- Gold Beastcoin (Steal)
 
 -- ZoneID:  61 - Sarameya
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,2619,@ALWAYS);    -- Sarameyas Hide (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,2168,@ALWAYS);    -- Cerberus Claw (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,2169,@ALWAYS);    -- Cerberus Hide (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,5565,@ALWAYS);    -- Slice Of Cerberus Meat (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,16155,@UNCOMMON); -- Aurum Armet (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,16155,@UNCOMMON); -- Aurum Armet (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,16156,@UNCOMMON); -- Oracles Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,16156,@UNCOMMON); -- Oracles Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,11283,@UNCOMMON); -- Oracles Robe (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,11283,@UNCOMMON); -- Oracles Robe (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,18446,@UNCOMMON); -- Pachipachio (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,18497,@UNCOMMON); -- Foolkiller (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,16337,@UNCOMMON); -- Hachiryu Haidate (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,5565,@ALWAYS); -- Slice Of Cerberus Meat (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,2168,@ALWAYS); -- Cerberus Claw (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,2169,@ALWAYS); -- Cerberus Hide (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2162,0,0,1000,2619,@ALWAYS); -- Sarameyas Hide (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2162,1,1,@ALWAYS,16155,333); -- Aurum Armet
+INSERT INTO `mob_droplist` VALUES (2162,1,1,@ALWAYS,16156,333); -- Oracles Cap
+INSERT INTO `mob_droplist` VALUES (2162,1,1,@ALWAYS,11283,333); -- Oracles Robe
+INSERT INTO `mob_droplist` VALUES (2162,1,2,@COMMON,18446,333); -- Pachipachio (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2162,1,2,@COMMON,18497,333); -- Foolkiller (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2162,1,2,@COMMON,16337,333); -- Hachiryu Haidate (Common, 15%)
 
 -- ZoneID:  15 - Sarcophilus
 INSERT INTO `mob_droplist` VALUES (2163,0,0,1000,1623,110);        -- Eft Skin (11.0%)
@@ -19002,21 +18999,18 @@ INSERT INTO `mob_droplist` VALUES (2417,0,0,1000,4878,@VRARE);    -- Scroll Of A
 INSERT INTO `mob_droplist` VALUES (2417,2,0,1000,656,0);          -- Beastcoin (Steal)
 
 -- ZoneID:  51 - Tinnin
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2609,@ALWAYS);    -- Tinnins Fang (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2158,@ALWAYS);    -- Hydra Fang (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,5564,@ALWAYS);    -- Chunk Of Hydra Meat (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2172,@ALWAYS);    -- Hydra Scale (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2172,@UNCOMMON);  -- Hydra Scale (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2172,@UNCOMMON);  -- Hydra Scale (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,11284,@UNCOMMON); -- Enkidus Harness (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,11284,@UNCOMMON); -- Enkidus Harness (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,16157,@UNCOMMON); -- Enkidus Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,16157,@UNCOMMON); -- Enkidus Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,16156,@UNCOMMON); -- Oracles Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,16156,@UNCOMMON); -- Oracles Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,18429,@UNCOMMON); -- Shusui (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,18593,@UNCOMMON); -- Alkalurops (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,11364,@UNCOMMON); -- Hachiryu Sune-Ate (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,5564,@ALWAYS); -- Chunk Of Hydra Meat (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2172,@ALWAYS); -- Hydra Scale (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2172,@RARE);   -- Hydra Scale (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2172,@RARE);   -- Hydra Scale (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2158,@ALWAYS); -- Hydra Fang (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2418,0,0,1000,2609,@ALWAYS); -- Tinnins Fang (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2418,1,1,@ALWAYS,11284,333); -- Enkidus Harness
+INSERT INTO `mob_droplist` VALUES (2418,1,1,@ALWAYS,16157,333); -- Enkidus Cap
+INSERT INTO `mob_droplist` VALUES (2418,1,1,@ALWAYS,16156,333); -- Oracles Cap
+INSERT INTO `mob_droplist` VALUES (2418,1,2,@COMMON,18429,333); -- Shusui (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2418,1,2,@COMMON,18593,333); -- Alkalurops (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2418,1,2,@COMMON,11364,333); -- Hachiryu Sune-Ate (Common, 15%)
 
 -- ZoneID: 115 - Tiny Mandragora
 INSERT INTO `mob_droplist` VALUES (2419,0,0,1000,4368,120); -- Two-Leaf Mandragora Bud (12.0%)
@@ -19715,19 +19709,16 @@ INSERT INTO `mob_droplist` VALUES (2506,0,0,1000,961,20); -- Two Of Cups Card (2
 INSERT INTO `mob_droplist` VALUES (2507,0,0,1000,987,20); -- Two Of Swords Card (2.0%)
 
 -- ZoneID:  79 - Tyger
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2629,@ALWAYS);    -- Tygers Tail (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2371,@ALWAYS);    -- Khimaira Horn (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2372,@ALWAYS);    -- Khimaira Mane (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2373,@ALWAYS);    -- Khimaira Tail (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,16155,@UNCOMMON); -- Aurum Armet (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,16155,@UNCOMMON); -- Aurum Armet (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,16157,@UNCOMMON); -- Enkidus Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,16157,@UNCOMMON); -- Enkidus Cap (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,11282,@UNCOMMON); -- Aurum Cuirass (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,11282,@UNCOMMON); -- Aurum Cuirass (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,15015,@UNCOMMON); -- Hachiryu Kote (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,18948,@UNCOMMON); -- Enforcer (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,18857,@UNCOMMON); -- Antares (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2373,@ALWAYS); -- Khimaira Tail (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2371,@ALWAYS); -- Khimaira Horn (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2372,@ALWAYS); -- Khimaira Mane (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2508,0,0,1000,2629,@ALWAYS); -- Tygers Tail (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2508,1,1,@ALWAYS,16155,333); -- Aurum Armet
+INSERT INTO `mob_droplist` VALUES (2508,1,1,@ALWAYS,16157,333); -- Enkidus Cap
+INSERT INTO `mob_droplist` VALUES (2508,1,1,@ALWAYS,11282,333); -- Aurum Cuirass
+INSERT INTO `mob_droplist` VALUES (2508,1,2,@COMMON,15015,333); -- Hachiryu Kote (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2508,1,2,@COMMON,18948,333); -- Enforcer (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2508,1,2,@COMMON,18857,333); -- Antares (Common, 15%)
 
 -- ZoneID: 205 - Tyrannic Tunnok
 INSERT INTO `mob_droplist` VALUES (2509,0,0,1000,17927,@ALWAYS); -- Lohar (Always, 100%)
