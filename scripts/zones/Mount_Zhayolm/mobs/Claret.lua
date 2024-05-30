@@ -11,12 +11,12 @@ local entity = {}
 
 entity.onMobInitialize = function(mob)
     mob:setMobMod(xi.mobMod.IDLE_DESPAWN, 300)
-    mob:setMobMod(xi.mobMod.TARGET_DISTANCE_OFFSET, 25) -- Stands right against player, but not on top of them.
+    mob:setMobMod(xi.mobMod.TARGET_DISTANCE_OFFSET, 50) -- Stands right against player, but not on top of them.
     mob:addImmunity(xi.immunity.BIND)
     mob:addImmunity(xi.immunity.LIGHT_SLEEP)
     mob:addImmunity(xi.immunity.DARK_SLEEP)
     mob:addImmunity(xi.immunity.PETRIFY)
-    mob:setSpeed(40)  -- TODO: Capture has chase speed at 148 and sub speed 40. 148 is way too fast, but 40 "feels right", investigate this.
+    mob:setSpeed(40)  -- TODO: Capture has chase speed at 148 and sub speed 40. 148 is way too fast, but 40 "feels" close enough for now, investigate this.
     mob:setMod(xi.mod.AURA_SIZE, 5) -- 5'
     mob:setMobMod(xi.mobMod.GIL_MIN, 3000)
     mob:setMobMod(xi.mobMod.GIL_MAX, 3000)
