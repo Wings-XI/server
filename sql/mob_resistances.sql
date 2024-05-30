@@ -92,7 +92,7 @@ INSERT INTO `mob_resistances` VALUES (62,'Cerberus',1.0,1.0,1.0,1.0,0,0,0,0,0,0,
 INSERT INTO `mob_resistances` VALUES (63,'Chariot',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,0,1,1,1,5,-1,6,1);
 INSERT INTO `mob_resistances` VALUES (64,'Chigoe',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,-1,1,1,2,1,-1,1,1);
 INSERT INTO `mob_resistances` VALUES (65,'Clionid',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,0,4,2,2,0,4,2,2);
-INSERT INTO `mob_resistances` VALUES (66,'Slime-Clot',0.5,0.5,0.25,0.25,0,0,0,0,0,0,0,0,0,-3,-2,-2,-2,-2,-2,-2,-2);
+INSERT INTO `mob_resistances` VALUES (66,'Slime-Clot',0.5,0.5,0.25,0.25,0,0,0,0,0,0,0,0,0,-1,-1,-2,-1,-1,-1,1,1);
 INSERT INTO `mob_resistances` VALUES (67,'Slime-GlutinousClot',0.25,0.25,0.125,0.125,0,0,0,0,0,0,0,0,0,-1,-1,-2,-1,-1,-1,1,1);
 INSERT INTO `mob_resistances` VALUES (68,'Cluster',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,-2,3,3,3,3,3,3,3);
 INSERT INTO `mob_resistances` VALUES (69,'Cluster - Razon',0.875,0.875,0.875,0.875,0,0,0,0,0,0,0,0,0,-2,3,3,3,3,3,3,3);
@@ -313,7 +313,7 @@ INSERT INTO `mob_resistances` VALUES (286,'Puk - Vulpangue - ZMN Tier 1',3.0,1.2
 INSERT INTO `mob_resistances` VALUES (287,'Colibri - Chamrosh - ZMN Tier 1',1.0,1.25,1.0,1.0,0,0,0,0,0,0,0,0,0,-1,-2,6,0,-1,-1,0,-2);
 INSERT INTO `mob_resistances` VALUES (288,'Qiqirn - Cheese Hoarder - ZNM Tier 1',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,-1,-1,-2,2,0,-1,-1,0);
 INSERT INTO `mob_resistances` VALUES (289,'Wamouracampa - BrassBorer - ZNM Tier 1',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,11,-2,2,-1,0,-2,0,-1);
-INSERT INTO `mob_resistances` VALUES (290,'Slime - Claret - ZMN Tier 1',0.25,0.25,0.125,0.125,0,0,0,0,0,0,0,0,0,-3,-2,-2,-2,-2,-2,-2,-2);
+INSERT INTO `mob_resistances` VALUES (290,'Slime - Claret - ZMN Tier 1',1,1,0.75,0.75,0,0,0,0,0,0,0,0,0,-1,-1,-2,-1,-1,-1,1,1);
 INSERT INTO `mob_resistances` VALUES (291,'Automation - Ob - ZMN Tier 1',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1);
 INSERT INTO `mob_resistances` VALUES (292,'Skeleton - Velionis - ZMN Tier 1',0.875,0.5,1.125,1.25,0,0,0,0,0,0,0,0,0,-3,0,-2,-2,-2,-2,-3,4);
 INSERT INTO `mob_resistances` VALUES (293,'Chigoe - Chigre - ZMN Tier 1',1.0,1.0,1.0,1.0,0,0,0,0,0,0,0,0,0,-1,1,1,2,1,-1,1,1);
