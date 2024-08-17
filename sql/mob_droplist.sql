@@ -144,9 +144,9 @@ INSERT INTO `mob_droplist` VALUES (14,0,0,1000,2622,@ALWAYS);   -- Achamoths Ant
 INSERT INTO `mob_droplist` VALUES (14,1,1,@ALWAYS,17753,333);   -- Organics (Always, 100%)
 INSERT INTO `mob_droplist` VALUES (14,1,1,@ALWAYS,11376,333);   -- Aurum Sabatons (Always, 100%)
 INSERT INTO `mob_droplist` VALUES (14,1,1,@ALWAYS,16342,333);   -- Oracles Braconi (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (14,1,2,UNCOMMON,17753,333);  -- Organics (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (14,1,2,UNCOMMON,11376,333);  -- Aurum Sabatons (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (14,1,2,UNCOMMON,16342,333);  -- Oracles Braconi (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (14,1,2,@UNCOMMON,17753,333); -- Organics (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (14,1,2,@UNCOMMON,11376,333); -- Aurum Sabatons (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (14,1,2,@UNCOMMON,16342,333); -- Oracles Braconi (Uncommon, 10%)
 INSERT INTO `mob_droplist` VALUES (14,0,0,1000,19034,@VCOMMON); -- Ice Grip (Very Common, 24%)
 INSERT INTO `mob_droplist` VALUES (14,0,0,1000,19035,@VCOMMON); -- Thunder Grip (Very Common, 24%)
 
